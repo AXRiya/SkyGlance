@@ -1,0 +1,67 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #0f172a;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    min-height: 100vh;      
+    margin: 0;
+}
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; 
+}
+
+.container {
+    background: rgba(30, 41, 59, 0.8); /* Semi-transparent */
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    border-radius: 25px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.search-box { display: flex; gap: 10px; margin-bottom: 20px; }
+input { flex: 1; padding: 12px; border-radius: 8px; border: none; outline: none; background: #f3f4f6; }
+button { padding: 10px 15px; border-radius: 8px; border: none; background: #38bdf8; cursor: pointer; }
+
+#weatherIcon { width: 80px; margin: 0 auto; }
+.main-info h1 { font-size: 3.5rem; margin: 10px 0; }
+#weatherDesc { text-transform: capitalize; color: #cbd5e1; margin-bottom: 20px; }
+
+.details { display: flex; justify-content: space-between; border-top: 1px solid #475569; padding-top: 20px; }
+.col { text-align: left; font-size: 0.85rem; line-height: 1.8; }
+.col i { color: #38bdf8; margin-right: 5px; width: 18px; }
+span { font-weight: bold; }
+
+.footer {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #cbd5e1;
+}
+
+.footer b {
+    color: #38bdf8; 
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: white;
+    font-size: 1.2rem;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    color: #38bdf8;
+}

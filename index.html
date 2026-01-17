@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyGlance - AXRiya</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Enter city (e.g. Delhi)">
+            <button id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+
+        <div class="weather-card">
+            <h2 id="cityName">Search a City</h2>
+            <div class="main-info">
+                <img id="weatherIcon" src="" alt="" style="display: none;">
+                <h1 id="temp">--°C</h1>
+                <div id="weatherDesc">Status</div>
+            </div>
+
+            <div class="details">
+                <div class="col">
+                    <p><i class="fa-solid fa-droplet"></i> Humidity: <span id="humidity">--%</span></p>
+                    <p><i class="fa-solid fa-wind"></i> Wind: <span id="wind">-- m/s</span></p>
+                </div>
+                <div class="col">
+                    <p><i class="fa-solid fa-sun"></i> Sunrise: <span id="sunrise">--:--</span></p>
+                    <p><i class="fa-solid fa-moon"></i> Sunset: <span id="sunset">--:--</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+            <p><b><h6>AXR</h6></b></p>
+            <div class="social-links">
+                <a href="https://github.com/AXRiya"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ayushi-chaurasia09072004?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
